@@ -1,0 +1,214 @@
+.full_page_voucher {
+  padding: 0 8%;
+}
+.rightbox_voucher {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 450px;
+  background-image: url(img/mainimg.png);
+}
+.rightbox_voucher_main {
+  flex: 1;
+  width: 100%;
+}
+.main_box_voucher {
+  display: flex;
+  align-items: center;
+  height: 450px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.leftbox_voucher {
+  flex: 1;
+}
+.voucher_topic {
+  color: #2a2a72;
+  font-size: 60px;
+  font-weight: bold;
+}
+.voucher_para {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.sub_vouher_para {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sub_vouher_para_sub {
+  color: #2a2a72;
+  font-weight: bold;
+}
+.topic_secondpart {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.card_set_voucher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.card_voucher {
+  width: 370px;
+  border: 2px solid #2a2a72;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card_voucher:hover {
+  transform: scale(1.05); /* Zoom in on hover */
+}
+.nvbtnhoverr{
+  transition: transform 0.3s ease;
+}
+.nvbtnhoverr:hover {
+  transform: scale(1.05); /* Zoom in on hover */
+}
+.card_select_voucher {
+  width: 370px;
+  height: 155px;
+  background-color: #dcddf9ba;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  gap: 10px;
+  align-items: center;
+}
+.cenne {
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+.sub_topic_card {
+  text-align: center;
+  font-size: 26px;
+  color: #2a2a72;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.card_itme_seletc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 25px;
+}
+.voucherimg1 {
+  background-image: url(img/Voucher1.png);
+  width: 370px;
+  height: 259px;
+}
+.voucherimg2 {
+  background-image: url(img/Voucher2.png);
+  height: 259px;
+}
+.voucherimg3 {
+  background-image: url(img/Voucher3.png);
+  height: 259px;
+}
+.imgsetion_card_voucher {
+  width: 100%;
+  background-size: contain; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+}
+.add_cart_btn_voucher {
+  background-color: white;
+  padding: 4px 20px;
+  color: #2a2a72;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 17px;
+  margin: 10px 0;
+  border: 3px solid #2a2a72;
+}
+
+.add_cart_btn_voucher:hover {
+  background-color: #31316b0e;
+}
+.dtil_select_card {
+  font-size: 18px;
+}
+.card1_img_box_vouche {
+  background-image: url(img/card1.png);
+  background-color: white;
+  width: 100%;
+  height: 245px;
+}
+.card2_img_box_vouche {
+  background-image: url("img/card2.png");
+  background-color: white;
+  width: 100%;
+  height: 245px;
+}
+.card3_img_box_vouche {
+  background-image: url(img/card3.png);
+  background-color: white;
+  width: 100%;
+  height: 245px;
+}
+.card_select_voucher_sub {
+  width: 370px;
+  background-color: #dcddf9ba;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.cnter {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 650px) {
+ .full_page_voucher{
+  padding: 20px;
+ }
+ .voucher_topic{
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+ }
+ .rightbox_voucher_main{
+  display: none;
+ }
+ .main_box_voucher{
+  margin: 0 0 20px 0;
+  padding: 0;
+  border-bottom: 1px solid gray;
+  display: block;
+  height: auto;
+ }
+ .sub_vouher_para{
+  text-align: center;
+ }
+ .voucher_para{
+  text-align: center;
+ }
+ .imgsetion_card_voucher {
+  width: 100%;
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+}
+}

@@ -1,0 +1,359 @@
+.custom-image-Gap {
+  max-height: 15vh;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.list-group-item-custom {
+  background-color: rgb(255, 255, 255);
+  color: #00000080;
+  width: 100%;
+  border-color: #ffffff80;
+}
+.list-group-item-custom:hover {
+  background-color: #2a2a721a;
+  color: #2a2a72;
+}
+.bell-nav {
+  color: #2a2a72;
+}
+.bell-nav:hover {
+  color: #2a2a72;
+}
+/* styles.css */
+.list-group-item-custom.active {
+  background-color: #2a2a721a;
+  color: #2a2a72;
+  border-color: #ffffff80;
+}
+/* styles.css */
+.custom-form-control {
+  width: 250%;
+}
+
+.custom-S-text1 {
+  font-size: 24px;
+  font-family: 600;
+  margin-left: 7vh;
+  color: #ffffff;
+}
+.custom-S-text2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 7vh;
+  color: #ffffff;
+}
+
+.custom-button-Total {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 7vh;
+  padding-left: 7vh;
+  padding-right: 5vh;
+  background-color: #00000040;
+  color: #ffffff;
+  border-width: 4px;
+}
+
+.custom-button-Total:hover {
+  background-color: #2a2a72;
+  color: #ffffff;
+}
+
+.custom-Mentors {
+  /* border-radius: 10px; */
+  height: 40%;
+  background: linear-gradient(to bottom, #03a1ff, #0e93f4, #009ff9);
+}
+
+.custom-mentor {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 35%;
+  padding-right: 35%;
+  background-color: #00000040;
+  border-color: #ffffff;
+  color: #ffffff;
+  border-width: 2px;
+}
+.custom-mentor:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.text-muted {
+  color: #ffffff;
+}
+
+.View-more {
+  padding-right: 3vh;
+}
+.klmyi {
+  width: 100%;
+  height: auto;
+}
+
+.conimg {
+  margin: 30px 0;
+  width: 35%;
+  height: auto;
+}
+.contpik {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.conpret {
+  color: #535353;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.btnlgouy1 {
+  color: #2a2a72;
+  background-color: white;
+  border: 2px solid #2a2a72;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+.btnlgouy2 {
+  color: white;
+  background-color: #2a2a72;
+  border: 2px solid #2a2a72;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+.pre {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 50px;
+}
+.search-res-dis {
+  display: none;
+}
+.resclose {
+  display: none;
+}
+.nav-colum {
+  flex: 0 0 25%; /* Equivalent to col-lg-3 */
+  height: 100vh; /* Equivalent to vh-100 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.togelbtn {
+  display: none;
+}
+
+.img-brdr {
+  border-radius: 10px;
+}
+
+.home-bx-2 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.rownew {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.div_data_full_home {
+  position: relative;
+  background-color: #00000095;
+  bottom: 170px;
+  width: 250px;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+.img_home_bk {
+  width: 250px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  object-fit: cover;
+}
+.req_btn_crd {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin: 8px 0;
+  padding: 3px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+.req_btn_crd:hover {
+  color: white;
+}
+.card_list_home_metro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 25px 0 0 0;
+  gap: 5px;
+  justify-content: space-between;
+}
+.name_lble {
+  font-weight: 600;
+  font-size: 25px;
+}
+.position_lble {
+  color: #d0edff;
+  font-weight: 500;
+  font-size: 17px;
+}
+.item_set_sibr {
+  margin-left: 25px;
+}
+.borderimg {
+  border-radius: 0 0 8px 0;
+}
+.hiname {
+  font-size: 30px;
+}
+.hipara {
+  font-size: 20px;
+}
+.coin_box {
+  width: 80px;
+}
+.custom_Point {
+  width: 100%;
+  display: flex;
+  color: white;
+  padding-left: 25px;
+  border-radius: 8px;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #03a1ff, #0e93f4, #009ff9);
+}
+@media screen and (max-width: 1250px) {
+  .item_set_sibr {
+    margin-left: 0;
+  }
+
+  .search-res-dis {
+    display: block;
+  }
+  .search-res-hide {
+    display: none;
+  }
+  .togelbtn {
+    font-size: 25px;
+    padding: 1px 10px;
+    color: white;
+    display: block;
+    background-color: #2a2a72;
+    margin: 0 0 0 20px;
+    border-radius: 5px;
+  }
+
+  .resclose {
+    display: block;
+    position: relative;
+    top: 30px;
+    float: inline-end;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #2a2a72;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .home-bx-2 {
+    display: none;
+  }
+  .custom-S-text1 {
+    margin-left: 1vh;
+  }
+  .nav-colum {
+    flex: none;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    background-color: #00000085;
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease;
+    height: auto;
+  }
+  .navbk-res {
+    width: 330px;
+    background-color: white;
+    margin: 0;
+    transition: all 0.8s ease;
+    padding: 0 15px;
+  }
+
+  .list-group-item-custom {
+    background-color: rgb(255, 255, 255);
+    color: #00000080;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .custom_Point {
+    margin: 20px 0;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .card_list_home_metro {
+    margin: 25px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .img_home_bk {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px 4px 0 0;
+    object-fit: cover;
+  }
+  .div_data_full_home {
+    position: static;
+    background-color: #000000;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 4px 4px;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homeDiv {
+    width: 75%;
+  }
+}
+

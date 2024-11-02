@@ -1,0 +1,60 @@
+.acept_box_mentro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn_acept_mentor {
+  background-color: #2a2a72;
+  padding: 4px 20px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 25px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border: 3px solid #2a2a72;
+  color: white;
+}
+.btn_acept_mentor:hover {
+  color: #2a2a72;
+  background-color: white;
+}
+
+.btn_dis_mentor {
+  background-color: red;
+  padding: 4px 20px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 25px;
+  border: 3px solid red;
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn_dis_mentor:hover {
+  color: red;
+  background-color: white;
+}
+
+.box_btn_mentor {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border: 2px solid #2a2a72;
+  padding: 25px;
+  justify-content: center;
+  display: flex;
+}
+.name_topic {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.img_request_acetp {
+  width: 350px;
+  margin-bottom: 25px;
+}
+.btn_box_ful_con{
+  text-align: center;
+}

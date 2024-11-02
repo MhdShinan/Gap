@@ -1,0 +1,94 @@
+/* LandingPageContact.css */
+.newbroder {
+  border: 2px solid rgba(128, 128, 128, 0.651);
+}
+.desbtn2new {
+  text-align: start;
+  position: relative;
+  bottom: 38px;
+  padding: 0;
+  margin: 0;
+  right: 50px;
+  cursor: pointer;
+}
+.confull-lan {
+  align-items: center;
+  width: 50%;
+  border-radius: 8px;
+  padding: 30px 50px;
+  margin: 0 20px;
+}
+
+.navbar-class-left {
+  position: relative;
+
+}
+@media screen and (min-width: 958px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar-class-left {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 958px) {
+  .navbar-class-left {
+    left: 0;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar-class-left {
+    justify-content: center;
+    text-align: center;
+  }
+  .btn-lan-btn{
+    margin: 0 0 20px 0;
+  }
+  .confull-lan {
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0px 20px;
+  }
+  .cardkml {
+    width: 100%;
+    background: #dfecf9;
+    padding: 10px;
+  }
+  .desbtn2new {
+    text-align: start;
+    position: relative;
+    bottom: 38px;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  .landing-set-res {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .confull {
+    align-items: center;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.651);
+    margin: 0 20px;
+  }
+  .newbroder {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  .navbar-class-left {
+    justify-content: center;
+    text-align: center;
+  }
+}

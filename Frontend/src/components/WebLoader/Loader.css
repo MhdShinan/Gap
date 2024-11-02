@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --animationHeight: 1;
+}
+
+.loader-body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  position: relative;
+  width: 160px; /* Adjusted width to accommodate padding */
+  height: 100px;
+}
+
+.loader-clm {
+  position: relative;
+  display: inline-block;
+  background: #2a2a72;
+  height: 100%;
+  width: 30px;
+  margin-right: 10px; /* Adjusted margin for padding */
+  padding: 10px; /* Added padding */
+  transform: scaleY(var(--animationHeight));
+  transform-origin: bottom;
+  transition: all 0.4s ease-in-out;
+
+  &:nth-child(2) {
+    --animationHeight: 0.4;
+  }
+
+  &:nth-child(3) {
+    --animationHeight: 0.8;
+  }
+ 
+}
+.loading-topic{
+  font-weight: bold;
+  color: #2a2a7272;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.blink-load {
+  animation: blinker 2.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

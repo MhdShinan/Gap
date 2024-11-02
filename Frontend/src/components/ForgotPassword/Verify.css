@@ -1,0 +1,36 @@
+.otpContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .otpInput {
+    width: 12%;
+    height: 50px;
+    color: #2a2a72;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 5px;
+    border: 2px solid #2a2a7259;
+    border-radius: 5px;
+  }
+  
+  .otpInput:focus {
+    outline: none;
+    border-color: #2a2a72;
+    box-shadow: #3434c7;
+  }
+  
+  .custom-image-ULock3 {
+    max-width: 20%;
+    max-height: 20%; 
+    margin: auto; 
+    margin-top: 6vh;
+  }
+  .custom-input {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    
+  }
+  
